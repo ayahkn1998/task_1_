@@ -1,0 +1,311 @@
+body{
+    height: 2000px;
+    background-image: url(../imges/58344.jpg);
+    background-size: cover;
+
+   
+}
+.travel{
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    animation-duration: 4s ;
+    animation-fill-mode: forwards;
+    overflow: auto;
+}
+
+.div_1 {
+    left: 0;
+    top: 0; 
+    animation-name: change1  ;
+}
+
+@keyframes change1 {
+    0% {
+       
+        left: 0;
+        top: 0; 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        top: 0;
+        left: 500px;
+    }
+    
+    
+    100% {
+       
+        top: 0;
+        left: 940px;
+    }
+
+}
+.img img{
+    width:200px;
+    height: 200px;
+    float: left;
+}
+.text{
+    margin: auto;
+    width: 230px;
+    height: 200px;
+    float: left;
+    color: white;
+    font-size: 20px;
+
+}
+.text p{
+    margin-left: 15px;
+}
+.t_d_1{
+    background-color: rgb(211, 183, 146);
+
+}
+
+.div_2 {
+  
+    right: 0;
+    top: 220px;
+    animation-name: change2  ;
+    animation-delay: 4s ;
+}
+
+@keyframes change2 {
+    0% {
+        right: 0;
+        top: 220px; 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        right: 500px;
+        top: 220px;
+    }
+    
+    
+    100% {
+        right: 930px;
+        top: 220px;
+    }
+} 
+.t_d_2{
+    background-color: rgb(241, 82, 7);
+
+}
+
+
+.div_3 {
+ 
+    top: 430px;
+    left: 0; 
+    animation-name: change3  ;
+    animation-delay: 8s ;
+   
+}
+
+@keyframes change3 {
+    0% {
+        top:430px;
+        left: 0; 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        top: 430px; 
+        left: 500px;
+    }
+    
+    
+    100% {
+        top: 430px; 
+        left: 940px;
+    }
+
+}
+.t_d_3{
+    background-color: rgb(46, 46, 143);
+}
+
+.div_4 {
+   
+    right: 0;
+    top: 640px;
+    animation-name: change4  ;
+    animation-delay: 12s ;
+   
+
+}
+
+@keyframes change4 {
+    0% {
+        right: 0;
+        top: 640px; 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        right: 500px;
+        top: 640px;
+    }
+    
+    
+    100% {
+        right: 930px;
+        top: 640px;
+    }
+}  
+.t_d_4{
+    background-color: rgb(40, 219, 115);
+}
+
+
+ .div_5 {
+    
+    top: 850px; 
+    left: 0;
+    animation-name: change5  ;
+    animation-delay: 16s ;
+    
+    
+}
+
+@keyframes change5 {
+    0% {
+        left: 0;
+        top: 850px; 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        top: 850px;
+        left: 500px;
+    }
+    
+    
+    100% {
+        top: 850px;
+        left: 940px;
+    }
+
+}
+.t_d_5{
+    background-color: darkgreen;
+}
+
+.div_6 {
+  
+    right: 0;
+    top: 1060px;
+    animation-name: change6  ;
+    animation-delay: 20s ;
+   
+
+}
+
+@keyframes change6 {
+    0% {
+        right: 0;
+        top: 1060px;
+ 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        right: 500px;
+        top: 1060px;
+
+    }
+    
+    
+    100% {
+        right: 930px;
+        top: 1060px;
+        
+    }
+} 
+.t_d_6{
+    background-color: #b07b75;
+}
+
+
+.div_7 {
+    
+    left: 0;
+    top: 1270px; 
+    animation-name: change7 ;
+    animation-delay: 24s ;
+    
+    
+}
+
+@keyframes change7 {
+    0% {
+        left: 0;
+        top: 1270px; 
+ 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        left: 500px;
+        top: 1270px; 
+ 
+        
+    }
+    
+    
+    100% {
+        left: 940px;
+        top: 1270px; 
+
+        
+    }
+
+} 
+
+.t_d_7{
+    background-color: rgb(72, 204, 214);
+}
+
+.div_8 {
+    right: 0;
+    top: 1480px;
+    animation-name: change8  ;
+    animation-delay: 28s ;
+
+
+}
+
+@keyframes change8 {
+    0% {
+        right: 0;
+        top: 1480px;
+ 
+    }
+    
+    
+    50% {
+        opacity: 0.8;
+        right: 500px;
+        top: 1480px;
+
+    }
+    
+    
+    100% {
+        right: 930px;
+        top: 1480px;
+ 
+    }
+} 
+  .t_d_8{
+    background-color: rgb(103, 63, 141);
+  }
